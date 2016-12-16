@@ -6,7 +6,7 @@ from Server.Networking import *
 # clic droit sur le dossier -> Git -> Repository -> Pull
 
 # PUSH, pour envoyer mes modifications :
-# clic droit sur le dossier -> Git -> Commit Directory... -> Entrer un commentaire -> Commit & Push... -> Push.
+# clic droit sur le dossier -> Git -> Commit Directory... -> Entrer un commentaire -> Commit & Push... -> Push
 
 if __name__ == '__main__':
 
