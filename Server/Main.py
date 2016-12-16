@@ -2,6 +2,11 @@ import socket
 from Server.GameManager import *
 from Server.Networking import *
 
+# PULL, pour recevoir les modifications de Edern :
+# clic droit sur le dossier -> Git -> Repository -> Pull
+
+# PUSH, pour envoyer mes modifications :
+# clic droit sur le dossier -> Git -> Commit Directory... -> Entrer un commentaire -> Commit & Push... -> Push
 
 if __name__ == '__main__':
 

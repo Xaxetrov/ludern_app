@@ -16,8 +16,8 @@ if __name__ == '__main__':
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # Server location
-    host = input("host : ")
-    port = 12345#int(input("port : "))
+    host = "127.0.0.1"  # input("host : ") # par défaut 127.0.0.1
+    port = 12345  # int(input("port : "))
 
     # Connection to server
     s.connect((host, port))
@@ -29,7 +29,7 @@ if __name__ == '__main__':
 
         # Receive message
         received = s.recv(1024).decode()
-        #if received == 'end_of_com':
+        # if received == 'end_of_com':
         #    break
         (message_received, needsAnswer) = parse(received)
         print(' <- ' + message_received)
