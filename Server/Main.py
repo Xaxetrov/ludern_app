@@ -5,7 +5,7 @@ from Server.Networking import *
 
 if __name__ == '__main__':
 
-    # create a socket object
+    # create a socket object (listener)
     serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
     # My adress
