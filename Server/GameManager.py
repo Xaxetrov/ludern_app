@@ -5,7 +5,7 @@ from Server.Games.PFS import play_p_f_s
 
 game_name_list = ['pile_ou_face', 'p_f_c']
 
-
+# Code pour commencer à jouer
 def begin_party(conn1, conn2):
 
     chosen_game_name = choose_game(conn1, conn2)
