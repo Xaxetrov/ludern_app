@@ -1,6 +1,6 @@
 from Server.Networking import *
 from Server.Games.PileFace import play_pile_face
-from Server.Games.PFS import play_p_f_s
+from Server.Games.PFC import play_p_f_s
 
 
 game_name_list = ['pile_ou_face', 'p_f_c']
@@ -14,7 +14,7 @@ def begin_party(conn1, conn2):
     if chosen_game_name == 'pile_ou_face':
         play_pile_face(conn1, conn2)
     elif chosen_game_name == 'p_f_c':
-        play_p_f_s(conn1, conn2)
+        play_p_f_c(conn1, conn2)
 
     send_message_to_all(conn1, conn2, "Bye !", False)
 
