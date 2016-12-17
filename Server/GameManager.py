@@ -1,6 +1,6 @@
 from Server.Networking import *
 from Server.Games.PileFace import play_pile_face
-from Server.Games.PFC import play_p_f_s
+from Server.Games.PFC import play_p_f_c
 
 
 game_name_list = ['pile_ou_face', 'p_f_c']
