@@ -24,3 +24,9 @@ def receive_message_from_all(c1, c2, max_size=1024):
     m1 = receive_message(c1, max_size)
     m2 = receive_message(c2, max_size)
     return m1, m2
+
+# Possibles answers is a list of strings
+def ask_to_all(c1, c2, message, possible_answers):
+    send_message_to_all(c1, c2, message, True)
+    r1, r2 = receive_message_from_all(c1, c2)
+    return r1, r2
